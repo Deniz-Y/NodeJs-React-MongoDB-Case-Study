@@ -20,20 +20,22 @@ This project is a monthly sales dashboard designed for suppliers/vendors. It pro
 ## Database Structure
 
 ### Orders Collection
-_id: Unique order ID
-cart_item: Detaylar, siparişte hangi ürünlerin satıldığını belirtir. Dizi içindeki her bir nesne bir ürünü temsil eder.
-cart_item.$.product: Ürün ID'si
-cart_item.$.item_count: Bir paketteki ürün adedi
-cart_item.$.quantity: Bu üründen kaç paket olduğu
-cart_item.$.cogs: Tedarikçiye ne kadar ödendiği
-payment_at: Ödemenin yapıldığı tarih
+
+- `_id`: Unique order ID
+- `cart_item`: Contains details about the items sold within the order. Each object within the array represents one product.
+  - `cart_item.$.product`: Product ID
+  - `cart_item.$.item_count`: Quantity of items in one pack
+  - `cart_item.$.quantity`: Quantity of packs for this product
+  - `cart_item.$.cogs`: Cost of goods sold to the supplier
+- `payment_at`: Date when the payment is made
 
 ### Products Collection
-_id: Unique ürün ID'si
-name: Ürün adı
-vendor: Tedarikçi ID'si
+
+- `_id`: Unique product ID
+- `name`: Product name
+- `vendor`: Vendor ID
 
 ### Vendors Collection
-_id: Unique tedarikçi ID'si
-name: Tedarikçi adı
 
+- `_id`: Unique vendor ID
+- `name`: Vendor name
