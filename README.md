@@ -40,3 +40,13 @@ This project is a monthly sales dashboard designed for suppliers/vendors. It pro
 - `_id`: Unique vendor ID
 - `name`: Vendor name
 
+## Installation and Setup
+
+To run this project locally:
+
+1. Clone the repository.
+2. Install frontend dependencies: `cd client && npm install`
+4. Set up MongoDB and configure database connections in the backend.
+5. Start the backend server: `cd server && node Server.js`
+6. Start the frontend application: `cd client && npm start`
+
