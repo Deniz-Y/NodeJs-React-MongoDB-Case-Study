@@ -1,0 +1,97 @@
+.vendors-page {
+  text-align: center;
+  background-color: #f6f6f6;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding: 1px;
+  text-transform: uppercase;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vendors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  font-family: "Times New Roman";
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.vendor-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f6f6f6;
+}
+
+.vendor-row {
+  display: flex;
+  border-bottom: 0.5px solid #000;
+}
+
+.vendor-cell {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.vendor-cell:first-child {
+  flex: 2;
+}
+
+.vendor-cell:last-child {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.even-row {
+  background-color: #532d3c13;
+}
+
+.odd-row {
+  background-color: #f6f6f6bd;
+}
+
+.monthly-button,
+.all-button {
+  padding: 10px 32px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+  width: auto;
+  text-align: center;
+  flex-shrink: 0;
+  min-width: 200px;
+  white-space: nowrap;
+  font-family: "Times New Roman";
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.monthly-button {
+  background-color: #532d3c;
+  color: #fff;
+}
+
+.all-button {
+  background-color: #532d3c;
+  color: #fff;
+}
+
+.monthly-button:hover,
+.all-button:hover {
+  filter: brightness(1.2);
+}

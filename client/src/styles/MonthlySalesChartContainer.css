@@ -1,0 +1,19 @@
+.sales-chart-wrapper {
+    padding: 30px;
+    background-color: #f6f6f6;
+    text-align: center; 
+  }
+  
+  .sales-chart-wrapper h2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 2.25rem!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 25px; 
+  }
+  
+

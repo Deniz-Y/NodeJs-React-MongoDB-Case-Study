@@ -1,0 +1,58 @@
+.sales-table-container {
+  min-height: 100vh; 
+  background-color: #f6f6f6;
+  padding-top: 1px; 
+  margin-top: 0; 
+}
+
+.sales-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sales-table th,
+.sales-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  border-bottom: 0.5px solid #000; 
+}
+
+.sales-table th {
+  background-color: #532d3c;
+  color: #fff; 
+  font-family: "Times New Roman";
+  font-size: 1.4rem!important;
+  font-weight: 300!important;
+}
+
+.sales-table td {
+  color: #000; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem!important;
+  font-weight: 300!important;
+  text-align: center; 
+}
+
+.sales-table tbody tr:nth-child(even) {
+  background-color: #532d3c13;
+}
+
+.sales-table tbody tr:hover {
+  background-color: #f6f6f6bd;
+}
+
+.sales-table-title {
+  font-family: 'Roboto';
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.sales-table-title-container {
+  text-align: center;
+}
+

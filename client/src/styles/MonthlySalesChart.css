@@ -1,0 +1,12 @@
+.sales-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100vh;
+  }
+  
+  .sales-chart-container > div {
+    height: 500px;
+    width: 800px;
+  }
